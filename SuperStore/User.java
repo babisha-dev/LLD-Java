@@ -29,3 +29,11 @@ public Cart getcart(){
 }
 
 }
+
+ class Seller extends User {
+    public Seller(int userid, String username, String password){
+        super(userid, username,password);
+    }
+
+    
+}
